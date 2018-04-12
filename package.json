@@ -1,0 +1,32 @@
+{
+  "name": "COS",
+  "main": "node_modules/expo/AppEntry.js",
+  "version": "1.0.0",
+  "description": "This is a transport app which is called COS",
+  "author": {
+    "name": "Nihat Ibrahimli",
+    "email": "nihatibrahimli@gmail.com"
+  },
+  "private": true,
+  "scripts": {
+    "test": "node ./node_modules/jest/bin/jest.js --watchAll"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "@expo/samples": "2.1.1",
+    "ex-react-native-i18n": "0.0.3",
+    "expo": "26.0.0",
+    "react": "16.3.0-alpha.1",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-26.0.0.tar.gz",
+    "react-native-i18n": "^2.0.8",
+    "react-navigation": "^1.5.9",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "redux-logger": "^3.0.6"
+  },
+  "devDependencies": {
+    "jest-expo": "^26.0.0"
+  }
+}
